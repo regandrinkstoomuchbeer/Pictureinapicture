@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@1&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(79, 72, 72);
+}
+
+.button-container {
+    border: 20px solid black;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(185, 170, 90);
+    text-shadow: 0px 2px black;
+    background: linear-gradient(to top , #696969 #575757);
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+button:hover {
+    background: linear-gradient(to bottom #696969 #575757);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0px 6px 6px 0 rgba(0, 0px, 0px, 0.3);
+}
